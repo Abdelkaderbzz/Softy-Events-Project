@@ -82,11 +82,3 @@ npm run dev
 
 ```
 After completing these steps, SoftyEvents will be installed and ready to use on your local environment.
-
-## Contributors
-
-- Abdelkader Bouzomita
-- Moataz Hjaiji
-- Mohamed Yassin Jammeli 
-- Mohamed Omar Laabidli
-- Adem Blel

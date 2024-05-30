@@ -24,3 +24,11 @@ Please refer to the [README](./softy-events-backend/readme.md) file in the `soft
 SoftyEvents is built to adapt to the evolving needs of associations in the digital age. By providing a user-friendly and efficient tool for managing association operations, SoftyEvents aims to enhance communication, collaboration, and efficiency within associations of all sizes.
 
 We hope you find SoftyEvents useful for your association management needs!
+
+## Contributors
+
+- Abdelkader Bouzomita
+- Moataz Hjaiji
+- Mohamed Yassin Jammeli 
+- Mohamed Omar Laabidli
+- Adem Blel
