@@ -1,0 +1,58 @@
+.input-field {
+  display: flex;
+  flex-direction: column;
+  label {
+    font-weight: 500;
+    color: #000;
+    font-size: 17px;
+    margin-bottom: 5px;
+    @media screen and (max-width: 500px) {
+      font-size: 12px;
+    }
+    span {
+      color: red;
+    }
+  }
+  input {
+    width: 100%;
+    height: 54px;
+    border: 1px solid #d0d5dd;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 50px;
+    padding: 16px 38px;
+    font-size: 15px;
+    @media screen and (max-width: 500px) {
+      height: 50px;
+      font-size: 12px;
+      padding: 0 18px;
+    }
+  }
+    .password-input-container {
+    width: 100%;
+    position: relative;
+  }
+
+  .error {
+    border-color: rgba(255, 0, 0, 0.586);
+  }
+  .error-message {
+    margin-top: 3px;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(255, 0, 0, 0.863);
+    padding-left: 10px;
+  }
+}
+
+.password-toggle {
+  position: absolute;
+  top: 17px;
+  right: 30px;
+  @media screen and (max-width: 500px) {
+    top: 15px;
+  }
+  cursor: pointer;
+  svg {
+    font-size: 22px;
+  }
+}

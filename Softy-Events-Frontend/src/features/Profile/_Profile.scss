@@ -1,0 +1,26 @@
+@forward './components';
+.profile-container {
+  width: 100%;
+  .profile-update-title {
+    font-size: 21px;
+    margin-bottom: 1.5rem;
+  }
+  .profile-forms {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: start;
+    gap: 2rem;
+    @media screen and (max-width: 1150px) {
+      flex-direction: column;
+      align-items: center;
+    }
+    .password-update-container,
+    .profile-update-container {
+      width: 75%;
+      @media (max-width: 768px) {
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+.crud-form-popup {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 600px;
+  height: 100vh;
+  background-color: white;
+  z-index: 909;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  @media screen and (max-width: 900px) {
+    width: 100vw;
+  }
+  .main-crud-form-title {
+    display: flex;
+    align-items: center;
+    background-color: #0078ff;
+    justify-content: space-between;
+    height: 70px;
+    padding: 1.5rem;
+    p {
+      font-size: 20px;
+      font-weight: 600;
+      color: #fff;
+    }
+    .close-icon {
+      font-size: 40px;
+      color: #fff;
+      cursor: pointer;
+    }
+  }
+  form {
+    padding: 1.5rem;
+    margin-top: 1rem;
+    .crud-form-field {
+      height: 51.9px;
+      margin-bottom: 70px;
+      label {
+        margin-bottom: 5px;
+        font-size: 15px;
+      }
+      input {
+        padding: 16px 14px;
+        border-radius: 6px;
+      }
+    }
+  }
+}

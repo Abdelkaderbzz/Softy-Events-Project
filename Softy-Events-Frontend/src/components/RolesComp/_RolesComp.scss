@@ -1,0 +1,34 @@
+.roles-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 5px;
+  flex-wrap: nowrap;
+
+  .empty-case {
+    display: flex;
+    align-items: center;
+    height: 34px;
+    padding: 10px 16px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 400 !important;
+    color: #4f7b70;
+    background-color: #c4e7c1;
+  }
+  span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 16px;
+    border-radius: 10px;
+    font-size: 16px;
+    height: 34px;
+    text-transform: capitalize;
+    font-weight: 400 !important;
+  }
+}
+.more-roles {
+  min-width: 75px;
+}

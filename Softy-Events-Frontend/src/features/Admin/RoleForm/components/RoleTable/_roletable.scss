@@ -1,0 +1,50 @@
+.table-role-container{
+  width: 100%;
+  overflow-x: scroll;
+.table-role {
+  width: 100%;
+  border-collapse: collapse;
+  th,
+  td {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  .role-actions {
+    color: #777998;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .td-collection {
+    text-align: left;
+  }
+  .role-container {
+    text-align: left;
+    p {
+      width: fit-content;
+      padding: 7px 25px;
+      border-radius: 7px;
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+    }
+  }
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+  input[type='checkbox'] {
+    width: 40px;
+    height: 17px;
+  }
+}
+}

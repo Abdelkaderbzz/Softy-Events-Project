@@ -1,0 +1,58 @@
+@import './../../../../../assets/styles/abstracts/mixins.scss';
+.role-form-controls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: column;
+  .role-form-controls-back-arrow {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    .role-form-controls-title {
+      color: #777998;
+      font-family: Poppins;
+      font-size: 30px;
+      font-weight: 600;
+    }
+    .back-arrow-icon {
+      font-size: 50px;
+      align-self: end;
+      cursor: pointer;
+      color: #777998;
+    }
+  }
+  .role-creation {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #d4daee;
+    height: 62px;
+    padding: 10px;
+    @include flexbox(row, space-between, center);
+    .input-container {
+      gap: 17px;
+      width: 90%;
+      border: none;
+      height: 100%;
+    }
+    .role-search-input {
+      color: #9ba2ae;
+      background-color: #fafafa;
+      font-family: Poppins;
+      font-size: 18px;
+      font-weight: 400;
+      width: 100%;
+      height: 100%;
+    }
+    .role-creation-btn {
+      @include flexbox(row, center, center);
+      min-width: 92px;
+      height: 44px;
+      width: 142px;
+      color: #fff;
+      font-size: 16px;
+      border-radius: 10px;
+      background: #0078ff;
+    }
+  }
+}

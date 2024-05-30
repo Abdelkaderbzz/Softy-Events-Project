@@ -1,0 +1,12 @@
+.client-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+  .client-data{
+    display: flex;
+    flex-direction: column;
+    gap: 65px;
+  }
+}

@@ -1,0 +1,66 @@
+@import './../../assets/styles/abstracts/mixins.scss';
+.pagination-container {
+  padding: 20px 0px;
+  @media screen and (max-height: 900px) {
+    padding-bottom: 35px;
+  }
+  @include flexbox(row, space-between, center);
+  @media screen and (max-width: 650px) {
+    @include flexbox(column, stretch, stretch);
+    gap: 12px;
+  }
+  .pagination-button-page-number {
+    @include flexbox(row, center, center);
+    gap: 18px;
+    .pagination-button {
+      @include flexbox(row, center, center);
+      height: 38px;
+      padding: 10px;
+      gap: 10px;
+      color: #777998;
+      font-family: Poppins;
+      background-color: #fafafa;
+      font-size: 18px;
+      font-weight: 400;
+    }
+    .pagination-button-active {
+      border-radius: 10px;
+      border: 1px solid #d9d9d9;
+      background-color: #f3f5f7;
+    }
+  }
+
+  .prev-next-btns {
+    @include flexbox(row, center, center);
+    border-radius: 10px;
+    border: 1px solid #d9d9d9;
+    background: #f3f5f7;
+    height: 38px;
+    padding: 10px;
+    gap: 10px;
+    p {
+      color: #777998;
+      font-family: Poppins;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    svg {
+      color: #777998;
+      width: 24px;
+      height: 24px;
+    }
+  }
+  button[disabled] {
+    p{
+
+      color: #696a753e !important;
+    }
+    svg{
+      color: #696a753e !important;
+
+    }
+    border: 1px solid #d9d9d9;
+  }
+}

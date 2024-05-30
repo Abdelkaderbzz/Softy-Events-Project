@@ -1,0 +1,19 @@
+@use './../../assets/styles/abstracts/mixins.scss' as *;
+.action-popup {
+  @include flexbox(column, start, start);
+  gap: 5px;
+  .action-popup-button {
+    display: flex;
+    gap: 8px;
+    min-width: 120px;
+    align-items: flex-start;
+    svg {
+      color: #0078ff;
+      font-size: 21px;
+    }
+  }
+}
+.dots-icon {
+  font-size: 24px;
+  color: #0078ff;
+}

@@ -1,0 +1,58 @@
+.table-data-container {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: stretch;
+}
+.roles-container {
+  display: flex;
+  width: fit-content;
+  // min-width: 200px;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.ant-table-wrapper {
+  overflow-x: scroll;
+  // max-height: 490px;
+}
+.table-column-field {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  color: #777998 !important;
+  // text-align: start !important;
+}
+.table-data-user-field {
+  color: #0f1114;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: start;
+}
+.action-field {
+  text-align: right !important;
+}
+.table-column-field-1 {
+  max-width: 300px;
+  min-width: 160px;
+}
+tr {
+  background-color: #fff;
+}
+.ant-table-column-title {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-family: Poppins;
+  font-size: 16px !important;
+  font-weight: 600;
+  color: #777998 !important;
+  .sort-arrows{
+    display: flex;
+    flex-direction: column;
+    svg{
+      font-size: 20px;
+      cursor: pointer;
+    }
+  }
+}

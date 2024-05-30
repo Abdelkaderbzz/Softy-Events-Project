@@ -1,0 +1,25 @@
+.upload-icon-btn {
+  position: absolute;
+  top: 60px;
+  left: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgba(87, 157, 227, 0.872);
+  border-radius: 50%;
+  padding: 0.2rem;
+  cursor: pointer;
+  z-index: 8;
+  &:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  svg {
+    font-size: 22px;
+    color: rgb(33, 97, 176);
+  }
+}
+#upload-icon-button {
+  display: none;
+}

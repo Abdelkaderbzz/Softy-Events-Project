@@ -1,0 +1,79 @@
+@use './../../assets/styles/abstracts/mixins.scss' as *;
+
+.client-list-info {
+  @include flexbox(column, start, start);
+  gap: 20px;
+  .main-title {
+    @include flexbox(row, start, start);
+    gap: 33px;
+    h1 {
+      color: #777998;
+      font-family: Poppins;
+      font-size: 30px;
+      font-weight: 600;
+    }
+    p {
+      height: 43px;
+      width: 43px;
+      @include flexbox(row, center, center);
+      background-color: #0078ff;
+      font-size: 20px;
+      border-radius: 10px;
+      color: #fff;
+      font-size: 20px;
+      font-weight: 600;
+      font-family: Poppins;
+    }
+  }
+  .admin-user-creation {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #d4daee;
+    height: 62px;
+    padding: 10px;
+    @include flexbox(row, space-between, center);
+
+    .input-container {
+      .icon {
+        width: 30px;
+        height: 30px;
+      }
+      gap: 17px !important;
+      height: 80%;
+      border: none;
+      outline: none;
+      width: 100%;
+      padding: 0px !important;
+    }
+    .admin-user-search-input {
+      height: 100%;
+      color: #9ba2ae;
+      font-family: Poppins;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      width: 100%;
+      border: none !important;
+      outline: none;
+      background-color: #fafafa;
+      @media screen and (max-width: 500px) {
+        font-size: 14px;
+      }
+    }
+    .admin-user-creation-btn {
+      @include flexbox(row, center, center);
+      height: 44px;
+      min-width: 142px;
+      color: #fff;
+      border-radius: 10px;
+      background: #0078ff;
+      font-size: 16px;
+      font-weight: 600;
+      @media screen and (max-width: 600px) {
+        min-width: 50px;
+        font-size: 33px;
+      }
+    }
+  }
+}

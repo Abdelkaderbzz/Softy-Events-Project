@@ -1,0 +1,21 @@
+@forward './Sidebar/Sidebar';
+@forward './Navbar/Navbar';
+@forward './SidebarItems/SidebarItems';
+@forward './ThemeButton/ThemeButton';
+@forward './Button/Button';
+@forward './InputField/inputfield';
+@forward './ForgetPassword/ForgetPassword';
+@forward './TableData/tabledata';
+@forward './CrudForm/crudform';
+@forward './Overlay/overlay';
+@forward './SelectComp/selectcomp';
+@use './Input/Input';
+@forward './ListInfo/listInfo';
+// @forward './Table/Table';
+@forward './UserImg/userimg';
+@forward './RolesComp/RolesComp';
+@forward './ActionControl/ActionControl';
+@forward './FormatTime/FormatTime';
+@forward './Drawer/Drawer.scss';
+@forward './Pagination/Pagination';
+@forward './UploadIcon/uploadIcon'
