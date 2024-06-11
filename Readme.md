@@ -29,6 +29,40 @@ We hope you find SoftyEvents useful for your association management needs!
 
 [View the Database Conception Diagram](https://miro.com/welcomeonboard/VDk3SlFLUlJVTWY2WHNtTmN6eUtzRTU1bkZJbkZsUVE3MHVSZFpXM1NSNDV0RlNWVXZaWW9HYmVxeTJzWTdYbHwzNDU4NzY0NTQyNzIxMTkwMzQ2fDI=?share_link_id=581213039163)
 
+### Requirement Analysis
+- Gather functional requirements from stakeholders: **Mohamed Omar Laabidli**
+- Gather non-functional requirements from stakeholders: **Hazem kastouri**
+- Document requirements specification: **Hazem kastouri**
+
+### System Design
+- Design system architecture: **Hazem kastouri**
+- Design database schema: **Omar labidi**
+- Create wireframes for the user interface: **Yassine jameli**
+
+### Development
+- Develop user registration and authentication module: **Abdelkader Bouzomita**
+- Develop profile management module: **Abdelkader Bouzomita**
+- Develop event management module: **Abdelkader Bouzomita**
+- Develop member management module: **Abdelkader Bouzomita**
+- Develop role management module: **Moataz Hjaiji**
+- Develop news and articles management module: **Moataz Hjaiji**
+- Develop sponsor advertisement request module: **Moataz Hjaiji**
+- Develop news feed and event list display module: **Moataz Hjaiji**
+
+### Testing
+- Write unit tests for all modules: **Mohamed Omar Laabidli**
+- Perform integration testing: **Mohamed Omar Laabidli**
+- Conduct user acceptance testing: **Hazem kastouri**
+
+### Documentation
+- Write user manual: ** Mohamed Yassin Jammeli **
+- Write technical documentation for developers: ** Mohamed Yassin Jammeli **
+- Document maintenance procedures: ** Mohamed Yassin Jammeli **
+
+### Project Management
+- Create project timeline: **Adem Blel**
+- Assign tasks to team members: **Adem Blel**
+- Track project progress and milestones: **Adem Blel**
 
 ## Contributors
 
