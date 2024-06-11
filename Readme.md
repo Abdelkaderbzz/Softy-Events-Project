@@ -25,6 +25,11 @@ SoftyEvents is built to adapt to the evolving needs of associations in the digit
 
 We hope you find SoftyEvents useful for your association management needs!
 
+## Database Conception Diagram
+
+[View the Database Conception Diagram](https://miro.com/welcomeonboard/VDk3SlFLUlJVTWY2WHNtTmN6eUtzRTU1bkZJbkZsUVE3MHVSZFpXM1NSNDV0RlNWVXZaWW9HYmVxeTJzWTdYbHwzNDU4NzY0NTQyNzIxMTkwMzQ2fDI=?share_link_id=581213039163)
+
+
 ## Contributors
 
 - Abdelkader Bouzomita
