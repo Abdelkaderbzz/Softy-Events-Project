@@ -37,3 +37,4 @@ We hope you find SoftyEvents useful for your association management needs!
 - Mohamed Yassin Jammeli 
 - Mohamed Omar Laabidli
 - Adem Blel
+- Hazem kastouri
